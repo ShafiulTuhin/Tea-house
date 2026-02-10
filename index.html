@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="container mx-auto lg:px-10 px-4">
+    <!-- Banner Section -->
+    <section class="grid lg:grid-cols-2 md:grid-cols-2">
+      <div class="lg:pb-48 lg:pt-16 pt-8 lg:space-y-7.5 space-y-4">
+        <h2 class="font-extrabold lg:text-[80px] text-[40px] text-[#1C1C1C]">
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h2>
+        <p class="font-medium tex-[18px] text-[#777777]">
+          Tea and Botanical Solutions Supplier Give Optimum <br />
+          Satisfaction To Your Taste Buds.
+        </p>
+        <button
+          class="text-white font-bold text-[20px] py-3 px-5 rounded-lg bg-gradient-to-l from-[#FF0000] to-[#FF8938] cursor-pointer"
+        >
+          Explore More
+          <span class="inline-block -rotate-45"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></span>
+        </button>
+      </div>
+      <div class="banner-right lg:pt-30 pt-15 relative">
+        <img src="./images/banner.png" alt="" class="" />
+        <div
+          class="flex gap-5 absolute lg:bottom-49 lg:left-30 bottom-5 left-10 bg-white rounded-lg px-5"
+        >
+          <img src="./images/ratting.png" alt="Rating_Img" class="" />
+          <div class="">
+            <h2 class="font-extrabold text-[30px] text-[#1C1C1C]">5.00</h2>
+            <p class="font-semibold text-[#777777]">Trust for Ratings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
